@@ -4,15 +4,14 @@ class NavBar extends Component {
   render(){
     return(
       <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
-           </ul>
-         </div>
-       </nav>
+        <div class="nav-wrapper light-blue darken-3">
+          <a href="#" class="brand-logo center">PicPerfect</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="badges.html">PicEditor</a></li>
+            <li><a href="collapsible.html">Libary</a></li>
+          </ul>
+        </div>
+      </nav>
     )
   }
 }
